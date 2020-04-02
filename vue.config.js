@@ -2,12 +2,12 @@
  * @Description:vue 打包配置
  * @Author: yangkai
  * @Date: 2019-08-01 15:02:56
- * @LastEditTime: 2020-03-31 16:42:18
+ * @LastEditTime: 2020-04-01 15:48:37
  * @LastEditors: yangkai
  */
 "use strict";
 const path = require("path");
-const CONFIG = require("../config");
+const CONFIG = { CLIENT_DEV_PORT: 8000 };
 
 function resolve(dir) {
   return path.join(__dirname, dir);
@@ -27,8 +27,8 @@ const debug = false; // process.env.ENV !== 'production'
 
 // All configuration item explanations can be find in https://cli.vuejs.org/config/
 module.exports = {
-  publicPath: "/FinanceMarketReport",
-  outputDir: "FinanceMarketReport",
+  publicPath: "/jkbi",
+  outputDir: "/jkbi",
   assetsDir: "static",
   lintOnSave: process.env.NODE_ENV === "development",
   productionSourceMap: false,

@@ -2,7 +2,7 @@
  * @Description:app
  * @Author: yangkai
  * @Date: 2019-10-29 15:47:55
- * @LastEditTime: 2020-03-31 16:26:34
+ * @LastEditTime: 2020-04-01 16:25:29
  * @LastEditors: yangkai
  -->
 <template>
@@ -16,9 +16,6 @@
 </template>
 <style lang="scss">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 }
